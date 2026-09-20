@@ -61,4 +61,4 @@ jobs:
 
       - name: Terraform Plan initiation
         working-directory: ${{ env.working-directory }}
-        run: terraform plan -no-color
+        run: terraform plan -no-color -var-file="default.tfvars" -input=false
