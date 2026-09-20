@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      working-directory: example/parent-module
+      working-directory: examples/parent-module
 
     steps:
       - name: Clone repo inside runner
